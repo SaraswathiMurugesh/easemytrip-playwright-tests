@@ -1,0 +1,685 @@
+{
+  "cookies": [
+    {
+      "name": "etmuid",
+      "value": "202581118301840-c572wk-6bip-fxslqt549-qdq3kcxde",
+      "domain": ".easemytrip.com",
+      "path": "/",
+      "expires": 1792155601.840365,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "ReferalCookie",
+      "value": "|||||easemytrip.com",
+      "domain": "www.easemytrip.com",
+      "path": "/",
+      "expires": 1789131602,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "Analaytics",
+      "value": "{\"visit\":\"New_User\",\"visiterID\":\"\\\"EASEMYTRIPCOM-977620ec-5f59-44c5-a591-6ef9c4b516d8\\\"\"}",
+      "domain": ".easemytrip.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "CusId",
+      "value": "20250911182945",
+      "domain": ".easemytrip.com",
+      "path": "/",
+      "expires": 1789131602,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "VisiterID",
+      "value": "undefined",
+      "domain": ".easemytrip.com",
+      "path": "/",
+      "expires": 1789131602,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "mul1Org",
+      "value": "DEL-Delhi, India|Delhi",
+      "domain": ".easemytrip.com",
+      "path": "/",
+      "expires": 1789131604,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "mul1AirOrg",
+      "value": "[DEL] Indira Gandhi International Airport",
+      "domain": ".easemytrip.com",
+      "path": "/",
+      "expires": 1789131604,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "mul1Dest",
+      "value": "BOM-Mumbai, India|Mumbai",
+      "domain": ".easemytrip.com",
+      "path": "/",
+      "expires": 1789131604,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "mul1AirDest",
+      "value": "[BOM] Chhatrapati Shivaji International Airport",
+      "domain": ".easemytrip.com",
+      "path": "/",
+      "expires": 1789131604,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "mul2Org",
+      "value": "BOM-Mumbai, India|Mumbai",
+      "domain": ".easemytrip.com",
+      "path": "/",
+      "expires": 1789131604,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "mul2AirOrg",
+      "value": "[BOM] Chhatrapati Shivaji International Airport",
+      "domain": ".easemytrip.com",
+      "path": "/",
+      "expires": 1789131604,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_gcl_au",
+      "value": "1.1.1185849138.1757595604",
+      "domain": ".easemytrip.com",
+      "path": "/",
+      "expires": 1765371604,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_uetsid",
+      "value": "3c3e93108f0f11f0884df554bdd76e39",
+      "domain": ".easemytrip.com",
+      "path": "/",
+      "expires": 1757682004,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_uetvid",
+      "value": "3c3ed9a08f0f11f0950001ffc8387822",
+      "domain": ".easemytrip.com",
+      "path": "/",
+      "expires": 1791291604,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_fbp",
+      "value": "fb.1.1757595604808.958359644904478556",
+      "domain": ".easemytrip.com",
+      "path": "/",
+      "expires": 1765371607,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "MUID",
+      "value": "0835FAE83E5063C62F95EC8C3F2F625E",
+      "domain": ".bing.com",
+      "path": "/",
+      "expires": 1791291605.870241,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "MR",
+      "value": "0",
+      "domain": ".bat.bing.com",
+      "path": "/",
+      "expires": 1758200405.870401,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "ccode",
+      "value": "IN,DELHI",
+      "domain": ".easemytrip.com",
+      "path": "/",
+      "expires": 1792155604.876128,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "CUR_CODE",
+      "value": "INR",
+      "domain": ".easemytrip.com",
+      "path": "/",
+      "expires": 1792155604.87625,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "lang",
+      "value": "en-us",
+      "domain": ".easemytrip.com",
+      "path": "/",
+      "expires": 1792155604.876421,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "IDE",
+      "value": "AHWqTUkjjj2JXH7LU1KCASaI2o1xQ2WyX94n8Rut9Z9HxpAikohZEiKT69kBn1v7",
+      "domain": ".doubleclick.net",
+      "path": "/",
+      "expires": 1792155604.976653,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_ga_328ZMQHY8M",
+      "value": "GS2.1.s1757595605$o1$g0$t1757595605$j60$l0$h0",
+      "domain": ".easemytrip.com",
+      "path": "/",
+      "expires": 1792155605.36753,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_ga",
+      "value": "GA1.1.1110825058.1757595605",
+      "domain": ".easemytrip.com",
+      "path": "/",
+      "expires": 1792155605.854682,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "__sts",
+      "value": "eyJzaWQiOjE3NTc1OTU2MDU0MzUsInR4IjoxNzU3NTk1NjA1NDM1LCJ1cmwiOiJodHRwcyUzQSUyRiUyRnd3dy5lYXNlbXl0cmlwLmNvbSUyRiIsInBldCI6MTc1NzU5NTYwNTQzNSwic2V0IjoxNzU3NTk1NjA1NDM1fQ==",
+      "domain": "www.easemytrip.com",
+      "path": "/",
+      "expires": 1757597405,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "__stp",
+      "value": "eyJ2aXNpdCI6Im5ldyIsInV1aWQiOiI5NGNjNTI3ZC00NDMwLTQ4MDItYTA3My05YWViY2UxNzYyMDEifQ==",
+      "domain": "www.easemytrip.com",
+      "path": "/",
+      "expires": 1792155605.438924,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_ga_9MJV0N6Y8Z",
+      "value": "GS2.1.s1757595605$o1$g0$t1757595605$j60$l0$h0",
+      "domain": ".easemytrip.com",
+      "path": "/",
+      "expires": 1792155605.853736,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "__stgeo",
+      "value": "IjEi",
+      "domain": "www.easemytrip.com",
+      "path": "/",
+      "expires": 1757682005,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "__stdf",
+      "value": "MA==",
+      "domain": "www.easemytrip.com",
+      "path": "/",
+      "expires": 1758459606,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "__stbpnenable",
+      "value": "MQ==",
+      "domain": "www.easemytrip.com",
+      "path": "/",
+      "expires": 1757682006,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "uid",
+      "value": "0274c17c-e2d6-42fb-8411-9277b45a650d",
+      "domain": ".criteo.com",
+      "path": "/",
+      "expires": 1791291606.407085,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "UserIP",
+      "value": "112.121.56.130",
+      "domain": ".easemytrip.com",
+      "path": "/",
+      "expires": 1759755607,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "cto_bundle",
+      "value": "RYjGV19sOVVTeE1UaG1lbGhPYkQycG9vM0dtQmg5NXc5ZzRDWGx6NFB6SzRBbSUyQlVZTllNMFdrNVlsMFFWOFBBTWEyVGdSOWJ0U3c3cEVJblhnV3Z5aFVwOVplV0V3WWoxJTJCTk9paXR4OTdOSFBUdiUyRkxISHhGc0ZMZkhuc1VVMHU4M0UlMkJ1emJTaDdPVDNJTER1OUpQWVpnb0xvZzh6TzBDOWlkUlZNWjZ0dzR4T2dCbyUzRA",
+      "domain": ".easemytrip.com",
+      "path": "/",
+      "expires": 1791759606,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "COOKIE_SHARING",
+      "value": "%7B%22actualValue%22%3Atrue%2C%22MOE_DATA_TYPE%22%3A%22boolean%22%7D",
+      "domain": ".easemytrip.com",
+      "path": "/",
+      "expires": 1792155607.558389,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "DEVICE_DATA",
+      "value": "%7B%22deviceUniqueId%22%3A%22930deb26-eba0-46f1-af7b-d5fe4a33f965%22%7D",
+      "domain": ".easemytrip.com",
+      "path": "/",
+      "expires": 1792155607.562326,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "moe_uuid",
+      "value": "54536654-df79-4d03-bb1b-9be8fff3bf7c",
+      "domain": ".easemytrip.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "SOFT_ASK_STATUS",
+      "value": "%7B%22actualValue%22%3A%22not%20shown%22%2C%22MOE_DATA_TYPE%22%3A%22string%22%7D",
+      "domain": ".easemytrip.com",
+      "path": "/",
+      "expires": 1792155607.615771,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "HARD_ASK_STATUS",
+      "value": "%7B%22actualValue%22%3A%22prompt%22%2C%22MOE_DATA_TYPE%22%3A%22string%22%7D",
+      "domain": ".easemytrip.com",
+      "path": "/",
+      "expires": 1792155607.616306,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "USER_DATA",
+      "value": "%7B%22attributes%22%3A%5B%5D%2C%22subscribedToOldSdk%22%3Afalse%2C%22deviceUuid%22%3A%2254536654-df79-4d03-bb1b-9be8fff3bf7c%22%2C%22deviceAdded%22%3Atrue%7D",
+      "domain": ".easemytrip.com",
+      "path": "/",
+      "expires": 1792155607.878871,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "G_ENABLED_IDPS",
+      "value": "google",
+      "domain": ".www.easemytrip.com",
+      "path": "/",
+      "expires": 1792155607.905527,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "SESSION",
+      "value": "%7B%22sessionKey%22%3A%22397c0630-27ad-4574-aced-b1cba66979ce%22%2C%22sessionStartTime%22%3A%222025-09-11T13%3A00%3A07.584Z%22%2C%22sessionMaxTime%22%3A1800%2C%22customIdentifiersToTrack%22%3A%5B%5D%2C%22sessionExpiryTime%22%3A1757597407939%2C%22numberOfSessions%22%3A1%7D",
+      "domain": ".easemytrip.com",
+      "path": "/",
+      "expires": 1792155607.940025,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "ar_debug",
+      "value": "1",
+      "domain": "measurement-api.criteo.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "CMID",
+      "value": "aMLHxhdaRHwAN5W9EYFO.AAA",
+      "domain": ".casalemedia.com",
+      "path": "/",
+      "expires": 1789131608.557351,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "CMPS",
+      "value": "5433",
+      "domain": ".casalemedia.com",
+      "path": "/",
+      "expires": 1765371608.147583,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "CMPRO",
+      "value": "5433",
+      "domain": ".casalemedia.com",
+      "path": "/",
+      "expires": 1765371608.557557,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "tuuid",
+      "value": "4163ddb9-53c6-44aa-9092-b332bc483835",
+      "domain": ".360yield.com",
+      "path": "/",
+      "expires": 1765371608.156294,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "tuuid_lu",
+      "value": "1757595590",
+      "domain": ".360yield.com",
+      "path": "/",
+      "expires": 1765371608.156429,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "XANDR_PANID",
+      "value": "O3sAJhDyiiCctXvNuKUwsTR_Nc5mdTBKSmCF7cipjQzNqaQPuLLUhhwAUh0DiMpNt8w-LS6oCEMbNjTja6el79Q1pp_5j0LwO_d1fbKp3Kw.",
+      "domain": ".adnxs.com",
+      "path": "/",
+      "expires": 1765371608.357633,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None",
+      "partitionKey": "https://easemytrip.com",
+      "_crHasCrossSiteAncestor": true
+    },
+    {
+      "name": "uuid2",
+      "value": "151764114042196393",
+      "domain": ".adnxs.com",
+      "path": "/",
+      "expires": 1765371608.357844,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "rlas3",
+      "value": "TBj6IaJn4v1+KGkCXlscmCErvtuRoaPUb2OQdigB2zY=",
+      "domain": ".rlcdn.com",
+      "path": "/",
+      "expires": 1789131608.250416,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "pxrc",
+      "value": "CAA=",
+      "domain": ".rlcdn.com",
+      "path": "/",
+      "expires": 1762779608.250568,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "UID",
+      "value": "d2a3e9f175a3e7febd7ad31f0abaaf2",
+      "domain": ".ads.stickyadstv.com",
+      "path": "/",
+      "expires": 1760187608.359053,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "um",
+      "value": "!38,r4WYSOAE07UY0h9jtzoDGGPEauWFOfzQszfvJl7crc5x2svw0immST8R3auABA43FPyBCZZHAtUP79V9aq8bO7xoVQU,1765371591",
+      "domain": ".360yield.com",
+      "path": "/",
+      "expires": 1765371608.360295,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "umeh",
+      "value": "!38,0,1819803591,-1",
+      "domain": ".360yield.com",
+      "path": "/",
+      "expires": 1765371608.3604,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "tuuid",
+      "value": "bf298404-ad88-467a-853f-155df72ff8d8",
+      "domain": ".bidswitch.net",
+      "path": "/",
+      "expires": 1789131608.560151,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "c",
+      "value": "1757595591",
+      "domain": ".bidswitch.net",
+      "path": "/",
+      "expires": 1789131608.560433,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "tuuid_lu",
+      "value": "1757595591",
+      "domain": ".bidswitch.net",
+      "path": "/",
+      "expires": 1789131608.560301,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "SOC",
+      "value": "aMLHx8Co8HgAADvJnIcAAAAA",
+      "domain": ".socdm.com",
+      "path": "/",
+      "expires": 1792155608.563514,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "cto_bundle",
+      "value": "gSohal85STl1SEY0d3pKbHlPNnpJViUyQlo0eVVFWTR0V3VjVW9FWjB5NUhjVVdtT0hjMXhObGVmOXFaSGNZQTk3RW1tJTJCbzZDVEw4N3AwZVNtVG84S3laRnZkWERTWDh5dTVRaHRVb1htbnAlMkIydSUyRkFOcmI4YjM2YlUwR0tFVE5mTFNTYmJTUDZjRE9TckxNczlpc3RacXMwSEdyZyUzRCUzRA",
+      "domain": ".criteo.com",
+      "path": "/",
+      "expires": 1791291607.565323,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None",
+      "partitionKey": "https://easemytrip.com",
+      "_crHasCrossSiteAncestor": true
+    },
+    {
+      "name": "XFFGHTYUOP@#$",
+      "value": "pd9g4LNVtUIMHcFTLZnzHsNTgWjAGTKVAViyyPqwEsaKmOH+lVM/8TGedZlRx6/g6XjXV+OVzJxMo0Ouhj6IO/78YNH2W4nDsv2oQejk0sH9IGieIukFTtkshLGyhVTmy7kZfZrlWRKVMCzqv22m9/7Lfrvn41OLJxpdX1ghzZyVGiT0fYAPpkD2IzoyRlpGcZ7JWsSUAfhkgg2AZhwtpS/jAP1anJrpWp1c+wksnKy7lfJ7nqtlIcWYKAtI4e7dmywanz5F9R1wniARaJMK98AI8AJGrlTo7wPVAuHGeRBo65STuFhlsVSv7zfkxWlZaYn1aXVrY6o2IYeVT4+ubO+2GS7ECbp1d1y8Kz1BRvw=",
+      "domain": ".easemytrip.com",
+      "path": "/",
+      "expires": 1792155608.67067,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "XFFGHTYUOP@#$NL",
+      "value": "RcvHomtAAADQD7KIXpaGXCV6DTs1GJ1Jhq9/y3f258uvdKCjbJqWHxFpIe+W0tsNYbI/OkpdkRwnFztnoxQpnGX+GdZfZ4txLclSywpjthToGt7SCKbS/wM7fjbk8bm044zv+fk3ClyaBO/VEOOByuvHJWTdGXZC0mLaZ5GPvBAtjxMAmWmFov/MPmsA6cULj2fEZ9ZFUGCQEgYQvsDffGYHGIihZIpIlz6lHkdmr5pvQzAAQhhSx/DaLTNIEQ8agCW09gvfTv5D5utm5LLiFWnxUYcYNKYExWJRmqKF7BgLSYeqAge3zqf0gEVjiiRAObU+vL4fzkvhmWtEjFmXEjshmV/99Xuwy8Aa6Iu5fQYyNfS5PiJOIHvdYfmIZrlNWTZlxq9BULg/xsjrhZa84jQbR3ZbRCfT9+t0MQn1fhR/lbyrK8g7eHSekTuSXtzFD+1/98HJAVkwLjOg9Mjm+yMX+Z8jGsFL1bL1O8fHAzQKMez22NW7iZj2lJ9XAoGxXkvOOnLlTuHp8FpCL+xZwoPhPGXUyMizl8KcfFxmE3kf0ue4eJnpM4HIXmSr/xGQUc3HPF5/bBzWPJhfYaMBla3a/uZ3RsROBgr3V6HIy+euhW9dDeyfTSkAGjXWZZpeabaztOhZEW7z0G1xUk+MlTzjeNLiKNt59azFgVaa45p4G61Nrsv1dus42wJ9R/VDdtTogR1oxL2moLMxRPANxpvNsP0kc9bRSciL9aCjExxRrFShv9D3rRdMLZVTycY/IhMbF7zs3JBoGkcbJMS8C5bgV+JW8ZiNX1qDanxBqlJcZtSR/p0xW185F9gR322gHOp28199NdknLJQ7OCVKVaSm92+VkbswbzXLBZZrYlEmJXavD8/Wz9SCwSJ0IxwHN3ZrBdI1bew2Jnp8fIzaKLOJKMLVsNrYQc8BRsZnDENNoYrSQIs8Jr3Ubs/0fb//oNmCYFWz7beX/JoQIUPzfeOE1qlRoTqwOWdDMmYnIii3WtgEr6Tk1j1tTvqelRN90kHWolciJ/11edvveZT82yWPp9kRv+N3UjEeA9XzBT67V9Vi0lygOOZoxV9TyBzSM/EV6ZIEs1GElQT7p/U+bnZzuE6aIT+CdSXw2p3ytRdjHImIm8in1tOZ65Tx5/PONRvEn1nbBvwJAc99M7jaScNMUfxm0BfF/ln9arPY2i+Ro/kRoAYAckyvsXQq+7onuS4RjiJiKpobYvFG7VKS6InnV6Ub3v9vD7/YKvOx2oIWMVls9j4jpx9StjQjNKIlcNu9QaFbxrNt1aRCArkdsZ78vpnnY/q+BQ633rt+DLTPZDZOtjfhxno0EI78uKbv2EVUU8FCKvUv8oXP6Hu77leQZmvz5cE6Sg/P8BOBzbuJ1uwjhAvWVCOntOaL+eKcil7WF4GjNlpWhlNMxPIkP6l/qdF0M4RBWJcF5ceyTZEwPq23rYfpNowg97vFG6uSWRiT8rVsX1lTGXXFOc2KdT3OZfVmJTjvHw==",
+      "domain": ".easemytrip.com",
+      "path": "/",
+      "expires": 1792155608.671019,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "IDENTITY_MAP",
+      "value": "%7B%22userIdentities%22%3A%7B%22uid%22%3A%22Hb7yZlpkPc9C2MAymvhYp87jjrjQJHsz6dBWWVEzc1c%3D%22%7D%2C%22previousIdentities%22%3A%7B%7D%2C%22previousIdentitiesUpdatedTime%22%3A0%7D",
+      "domain": ".easemytrip.com",
+      "path": "/",
+      "expires": 1792155608.702331,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://www.easemytrip.com",
+      "localStorage": [
+        {
+          "name": "_uetvid_exp",
+          "value": "Tue, 06 Oct 2026 13:00:04 GMT"
+        },
+        {
+          "name": "eb_uu_id",
+          "value": "1757595601190"
+        },
+        {
+          "name": "cto_bundle",
+          "value": "RYjGV19sOVVTeE1UaG1lbGhPYkQycG9vM0dtQmg5NXc5ZzRDWGx6NFB6SzRBbSUyQlVZTllNMFdrNVlsMFFWOFBBTWEyVGdSOWJ0U3c3cEVJblhnV3Z5aFVwOVplV0V3WWoxJTJCTk9paXR4OTdOSFBUdiUyRkxISHhGc0ZMZkhuc1VVMHU4M0UlMkJ1emJTaDdPVDNJTER1OUpQWVpnb0xvZzh6TzBDOWlkUlZNWjZ0dzR4T2dCbyUzRA"
+        },
+        {
+          "name": "topicsLastReferenceTime",
+          "value": "1757595607665"
+        },
+        {
+          "name": "_gcl_ls",
+          "value": "{\"schema\":\"gcl\",\"version\":1,\"gcl_ctr\":{\"value\":{\"value\":0,\"timeouts\":0,\"creationTimeMs\":1757595604469},\"expires\":1765371604469}}"
+        },
+        {
+          "name": "_uetsid",
+          "value": "3c3e93108f0f11f0884df554bdd76e39"
+        },
+        {
+          "name": "lastExternalReferrerTime",
+          "value": "1757595604783"
+        },
+        {
+          "name": "__stsiteid",
+          "value": "d6a99db0af0f373d118acbb3bd22a853"
+        },
+        {
+          "name": "_uetsid_exp",
+          "value": "Fri, 12 Sep 2025 13:00:04 GMT"
+        },
+        {
+          "name": "__tz",
+          "value": "server"
+        },
+        {
+          "name": "_boutIdentify",
+          "value": "\" not valid user\""
+        },
+        {
+          "name": "_uetvid",
+          "value": "3c3ed9a08f0f11f0950001ffc8387822"
+        },
+        {
+          "name": "lastExternalReferrer",
+          "value": "empty"
+        },
+        {
+          "name": "__ls",
+          "value": "1757595605970"
+        },
+        {
+          "name": "MOE_DATA",
+          "value": "{\"INIT_DATA\":{\"debugLevel\":0,\"cluster\":\"DC_3\",\"environment\":\"sdk-03.moengage.com\",\"baseDomainName\":\"https://sdk-03.moengage.com/\",\"inapp\":null,\"customSoftAsk\":{\"mainClass\":null,\"allowClass\":null,\"dismissClass\":null},\"appId\":\"5DIMAU7L3A1YAR9J9SXCZHIU\",\"integrationType\":\"OLD_SDK\",\"forceSwUpdate\":null,\"swPath\":null},\"WEB_SETTINGS\":{\"isDomainLevelStorage\":true,\"configs\":{\"isBeaconDisabled\":false,\"isCardsModuleEnabled\":false,\"isWebPersonalizationModuleEnabled\":true,\"eventBatchCount\":15,\"logLevel\":null,\"periodicFlushTime\":60,\"isBatchingEnabled\":true,\"sessionInactiveDuration\":1800,\"isRemoteLoggingEnabled\":true,\"sourceExtraParams\":[],\"whitelistedEvents\":[\"MOE_PUSH_PERMISSION_STATE_ALLOWED\",\"MOE_PUSH_PERMISSION_STATE_BLOCKED\"],\"blacklistedEvents\":[],\"isAppActive\":true,\"remoteLogTracking\":false,\"subscriberBasedBillingAttributes\":[],\"isMultiIdEnabled\":false,\"userAttributeCacheTime\":43200,\"identityAttributes\":[\"uid\"]},\"settingsVersion\":\"V2\",\"toShowOverlay\":false,\"loadTime\":0,\"promptAgain\":0,\"optInType\":\"1-step\",\"isWebPushEnabled\":true,\"optInPreview\":{\"mobile\":{\"nudge\":{\"title\":{\"textColor\":\"#FFFFFF\",\"text\":\"This website would like to send you awesome updates and offers!\"},\"backgroundColor\":\"#000000\",\"icon\":\"https://www.moengage.com/wp-content/uploads/2019/07/moengage-logo.png\",\"altText\":\"\"},\"allowButton\":{\"textColor\":\"#FFFFFF\",\"text\":\"Allow\",\"backgroundColor\":\"#000000\"},\"dismissButton\":{\"textColor\":\"#FFFFFF\",\"text\":\"Don't Allow\",\"backgroundColor\":\"#000000\"},\"logo\":{\"logoUrl\":\"https://app-cdn.moengage.com/images/brand/logo_full_white.png\",\"logoColor\":\"#FFFFFF\",\"altText\":\"Powered By MoEngage\"}},\"web\":{\"banner\":{\"title\":{\"textColor\":\"#FFFFFF\",\"text\":\"This website would like to send you awesome updates and offers!\"},\"body\":{\"textColor\":\"#FFFFFF\",\"text\":\"Notifications can be turned off anytime from browser settings\"},\"backgroundColor\":\"#000000\",\"icon\":\"https://www.moengage.com/wp-content/uploads/2019/07/moengage-logo.png\",\"altText\":\"\"},\"allowButton\":{\"textColor\":\"#FFFFFF\",\"text\":\"Allow\",\"backgroundColor\":\"#000000\"},\"dismissButton\":{\"textColor\":\"#FFFFFF\",\"text\":\"Don't Allow\",\"backgroundColor\":\"#000000\"},\"logo\":{\"logoUrl\":\"https://app-cdn.moengage.com/images/brand/logo_full_white.png\",\"logoColor\":\"#FFFFFF\",\"altText\":\"Powered By MoEngage\"}}},\"overlay\":{\"opera\":{\"mobile\":{\"title\":\"Opera Mobile Preview\",\"text\":\"Tap on Allow button to receive notifications\"},\"desktop\":{\"title\":\"Opera Desktop Preview\",\"text\":\"Click on Allow button to receive notifications\"}},\"chrome\":{\"mobile\":{\"title\":\"Chrome Mobile Preview\",\"text\":\"Tap on Allow button to receive notifications\"},\"desktop\":{\"title\":\"Chrome Desktop Preview\",\"text\":\"Click on Allow button to receive notifications\"}},\"firefox\":{\"mobile\":{\"title\":\"Firefox Mobile Preview\",\"text\":\"Tap on Always button to receive Notifications\"},\"desktop\":{\"title\":\"Firefox Desktop Preview\",\"text\":\"Click on Allow button to receive Notifications\"}}},\"webPushPlatformData\":{\"chrome\":{\"subscriptionMode\":\"vapid\",\"vapidPublicKey\":\"BFKjtjq6elGv43xOqygLZ04P1aMx8u1DQ_JvjV5bj1-3rICH32tCvbhgEoB9a5X1oPPz-2ytcGaokgm23AIMcdw\"},\"firefox\":{\"subscriptionMode\":\"vapid\",\"vapidPublicKey\":\"BFKjtjq6elGv43xOqygLZ04P1aMx8u1DQ_JvjV5bj1-3rICH32tCvbhgEoB9a5X1oPPz-2ytcGaokgm23AIMcdw\"}},\"isPushSubBilling\":false,\"isBrandingHidden\":false},\"SETUP_TIME\":1757595607557,\"SDK_VERSION\":\"2.54.7\",\"DEVICE_DATA\":{\"deviceUniqueId\":\"930deb26-eba0-46f1-af7b-d5fe4a33f965\"},\"browserDetails\":{\"os\":\"web\",\"osPlatform\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36\",\"isMobile\":false,\"name\":\"Google Chrome\",\"isIncognito\":false},\"USER_DATA\":{\"attributes\":[],\"subscribedToOldSdk\":false,\"deviceUuid\":\"54536654-df79-4d03-bb1b-9be8fff3bf7c\",\"deviceAdded\":true},\"SESSION\":{\"sessionKey\":\"397c0630-27ad-4574-aced-b1cba66979ce\",\"sessionStartTime\":\"2025-09-11T13:00:07.584Z\",\"sessionMaxTime\":1800,\"customIdentifiersToTrack\":[],\"sessionExpiryTime\":1757597407939,\"numberOfSessions\":1},\"SOFT_ASK_STATUS\":\"not shown\",\"HARD_ASK_STATUS\":\"prompt\",\"OPTED_STATUS_TRACK_TIME\":1757595607935,\"IDENTITY_MAP\":{\"userIdentities\":{\"uid\":\"Hb7yZlpkPc9C2MAymvhYp87jjrjQJHsz6dBWWVEzc1c=\"},\"previousIdentities\":{},\"previousIdentitiesUpdatedTime\":0}}"
+        }
+      ]
+    }
+  ]
+}
