@@ -12,6 +12,7 @@ async function runLogin() {
 });
 const browserContext = await browser.newContext();
 const page = await browserContext.newPage();
+await browserContext.grantPermissions(['geolocation'], { origin: 'https://www.easemytrip.com' });
 await page.setViewportSize({width: 1920, height: 1080});
 await page.goto('https://www.easemytrip.com/', { waitUntil: 'domcontentloaded' });
 await page.locator(pageSelectors.loginOrSignUpButton).waitFor({state: 'attached', timeout: TimeOut.LoadTimeOut});

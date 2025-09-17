@@ -4,7 +4,7 @@ import { defineConfig } from '@playwright/test';
  * See https://playwright.dev/docs/test-configuration.
  */
 export default defineConfig({
-  testDir: './test',
+  testDir: './ease-my-trip/tests',
   /* Retry on CI only */
   retries: 0,
   /* Opt out of parallel tests on CI. */
@@ -22,7 +22,7 @@ export default defineConfig({
     trace: 'retain-on-failure',
     ignoreHTTPSErrors: true,
     actionTimeout: 30000,
-    storageState: './../authArtifacts/storageState.json',
+    storageState: './ease-my-trip/authArtifacts/storageState.json',
     launchOptions: {
       headless: false,
       timeout: 60000,

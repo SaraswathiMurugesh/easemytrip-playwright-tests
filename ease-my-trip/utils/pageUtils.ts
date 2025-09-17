@@ -127,3 +127,22 @@ export const getElementPropertyValue = async (locatable: Locatable, selector: st
   }, property);
   return value;
 };
+
+/**
+ * Navigate to page URL
+ * @param page Page
+ * @param url Url to navigate
+ */
+export async function navigateToUrl(page: Page, url: string) {
+  await page.waitForLoadState();
+  await page.goto(url, { waitUntil: 'domcontentloaded', timeout: TimeOut.LoadTimeOut });
+}
+
+/**
+ * Set Input Text Value Using JavaScript
+ * @param locatable Locator
+ * @param textToFill Input Text
+ */
+export async function setInputTextUsingJS(locatable: Locator, textToFill: string) {
+  await locatable.evaluate((el: HTMLInputElement, value: string) => (el.value = value), textToFill);
+}

@@ -13,3 +13,10 @@ export enum KeyboardActions {
     Escape = 'Escape',
     Tab = 'Tab',
 }
+
+export enum WebsiteURL{
+    HomePage = 'https://www.easemytrip.com/',
+    FlightPage = 'https://www.easemytrip.com/flights/',
+    HotelPage = 'https://www.easemytrip.com/hotels/',
+    HolidayPage = 'https://www.easemytrip.com/holidays/',
+}
