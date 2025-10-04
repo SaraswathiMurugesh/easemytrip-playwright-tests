@@ -19,4 +19,8 @@ export enum WebsiteURL{
     FlightPage = 'https://www.easemytrip.com/flights/',
     HotelPage = 'https://www.easemytrip.com/hotels/',
     HolidayPage = 'https://www.easemytrip.com/holidays/',
+    BusPage = 'https://www.easemytrip.com/bus/',
+    GiftCardPage = 'https://www.easemytrip.com/giftcard/',
+    EasyDarshanPage = 'https://www.easydarshan.com/',
+    ExploreBharatPage = 'https://www.explorebharat.com/',
 }

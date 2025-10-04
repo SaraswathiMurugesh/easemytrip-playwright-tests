@@ -6,7 +6,7 @@ test.describe.serial('Ease My Trip', () => {
 
   // Test data
   const country = 'Thailand';
-  const packageName = 'Thailand Escape';
+  const packageName = 'Thailand Aqua Escape';
 
   test('Test Case #1: Verify to Download Holiday Package', async ({ page }) => {
     easeMyTripWorkflows = new EaseMyTripWorkflows(page);
@@ -20,7 +20,7 @@ test.describe.serial('Ease My Trip', () => {
     });
 
     await test.step('Search and View Holiday Package', async () => {
-      await easeMyTripWorkflows.searchAndViewHolidayPackage(
+      await easeMyTripWorkflows.searchAndViewPackage(
         country,
         packageName
       );

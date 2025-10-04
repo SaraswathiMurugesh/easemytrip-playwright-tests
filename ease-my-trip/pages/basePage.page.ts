@@ -21,4 +21,32 @@ export class BasePage {
     public async navigateToHolidaysPage() {
         await navigateToUrl(this.page, WebsiteURL.HolidayPage);
     }
+
+    /**
+     * Navigate to bus page
+     */
+    public async navigateToBusPage() {
+        await navigateToUrl(this.page, WebsiteURL.BusPage);
+    }
+
+    /**
+     * Navigate to gift card page
+     */
+    public async navigateToGiftCardPage() {
+        await navigateToUrl(this.page, WebsiteURL.GiftCardPage);
+    }
+
+    /**
+     * Navigate to easy dharishanam page
+     */
+    public async navigateToEasyDarshanPage(){
+        await navigateToUrl(this.page, WebsiteURL.EasyDarshanPage);
+    }
+
+    /**
+     * Navigate to Explore Bharat Page
+     */
+    public async navigateToExploreBharatPage(){
+        await navigateToUrl(this.page, WebsiteURL.ExploreBharatPage);
+    }
 }
