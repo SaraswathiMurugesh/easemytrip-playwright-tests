@@ -4,8 +4,8 @@ import { HolidaysPage } from "../pages/holidaysPage.page";
 import { TourPackagesPage } from "../pages/tourPackagesPage.page";
 import { BusPage } from "../pages/busPage.page";
 import { GiftCardPage } from "../pages/giftCardPage.page";
-import { DharshanPage } from "../pages/dharshanPage.test";
-import { ExploreBharatPage } from "../pages/exploreBharatPage.test";
+import { DharshanPage } from "../pages/dharshanPage.page";
+import { ExploreBharatPage } from "../pages/exploreBharatPage.page";
 
 export class EaseMyTripWorkflows extends BasePage{
     readonly page: Page;

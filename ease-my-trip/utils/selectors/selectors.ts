@@ -52,7 +52,7 @@ export const busPaymentPageSelectors = {
     firstNameInputField: '#firstname0',
     lastNameInputField: '#lastname0',
     ageInputField: '#age0',
-    emailInputField: "//input[@id='trvlEmail']",
+    busEmailInputField: "//input[@id='trvlEmail']",
     phoneNumberInputField: "//input[@id='TrvlMobileNo']",
 }
 

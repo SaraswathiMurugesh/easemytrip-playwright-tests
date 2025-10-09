@@ -71,9 +71,9 @@ export class BusPage {
     await fillTextInput(this.page, pageSelectors.firstNameInputField, firstName);
     await fillTextInput(this.page, pageSelectors.lastNameInputField, lastName);
     await fillTextInput(this.page, pageSelectors.ageInputField, age);
-    const element1 = this.page.locator(pageSelectors.emailInputField);
+    const element1 = this.page.locator(pageSelectors.busEmailInputField);
     await element1.scrollIntoViewIfNeeded();
-    await fillTextInput(this.page, pageSelectors.emailInputField, email);
+    await fillTextInput(this.page, pageSelectors.busEmailInputField, email);
     await fillTextInput(this.page, pageSelectors.phoneNumberInputField, phoneNumber);
   }
 }
