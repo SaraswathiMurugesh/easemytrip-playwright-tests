@@ -34,7 +34,7 @@ export class BusPage {
    */
   public async selectJourneyDate() {
     await clickSelector(this.page, pageSelectors.datePicker);
-    await clickSelector(this.page, pageSelectors.nextButton);
+    //await clickSelector(this.page, pageSelectors.nextButton);
     await clickSelector(this.page, pageSelectors.selectDate);
     await clickSelector(this.page, pageSelectors.searchButton);
     await this.page.waitForTimeout(TimeOut.ElementWaitTime);

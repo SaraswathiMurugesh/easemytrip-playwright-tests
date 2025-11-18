@@ -34,13 +34,13 @@ export const busPageSelectors = {
     toCityInputField: "//input[@id='txtDesCity']",
     datePicker: "//input[@id='datepicker']",
     nextButton: "a.ui-datepicker-next.ui-corner-all",
-    selectDate: "//td[@data-month='10']//a[text()='4']",
+    selectDate: "//td[@data-month='10']//a[text()='30']",
     searchButton: "//input[@id='srcbtn']",
 }
 
 export const searchBusPageSelectors = {
     recommendedBusOption: "//span[@id='sldRound']",
-    selectSeatButton: "[class='card'] [class='rght-ac'] a",
+    selectSeatButton: "[class='tvcn'] [class='crd-prc ng-binding ng-scope'] a",
     seatSelectionFrame: '[class="table-center"]  [class="sl_available tooltipnv2"]',
     boardingPointRadioButton: '[ng-click="SelectBordingOther(listbrd.bdid)"]  [name="brdg-pnt"]',
     droppingPointRadioButton: '[ng-click="SelectDroppingOther(listdrp.dpId)"]  [name="drp-pnt"]',
@@ -62,7 +62,7 @@ export const giftCardPageSelectors = {
     quantityDropdown: '[ng-model="User.Quantity"]',
     laterButton: '#ltr',
     monthDropdown: '[data-handler="selectMonth"]',
-    dateSelection: "//td[@data-month='10']//a[text()='4']",
+    dateSelection: "//td[@data-month='11']//a[text()='30']",
     senderNameInputField: '[ng-model="User.SenderName"]',
     senderEmailInputField: '[ng-model="User.SenderEmail"]',
     senderMobileInputField: '[ng-model="User.SenderMobile"]',
@@ -98,9 +98,9 @@ export const exploreBharatPageSelectors = {
     wildLifeHaven: '//p[text()="Wildlife Haven "]',
     safariPackage: '//p[text()="Safari Splendor"]',
     fromDatePicker: 'input#datepicker',
-    fromDate: "//td[@data-month='9']//a[text()='15']",
+    fromDate: "//td[@data-month='10']//a[text()='25']",
     toDatePicker: 'input#datepicker2',
-    toDate: "//td[@data-month='9']//a[text()='22']",
+    toDate: "//td[@data-month='10']//a[text()='30']",
     numOfTravellers: 'input#totalpax',
     addCity: '.bootstrap-tagsinput input[placeholder="Add Cities +"]',
     fname: '#fname',
@@ -110,6 +110,70 @@ export const exploreBharatPageSelectors = {
     remark: '#remark',
 }
 
+export const activitiesPageSelectors = {
+    whereButton: '#txtcityname',
+    activityName: '//div[@id="autolist"]//span[text()="Dubai, United Arab Emirates"]',
+    whenButton: '#traveldateSec',
+    activityDate: '//div[@class="table-clender"]//span[text()="30"]',
+    activitySearchButton: '#srchBtn',
+    packageOption: '//a[text()="Package Options"]',
+    overviewOption: '//a[text()="Overview"]',
+    inclusionOption: '//a[text()="Inclusion"]',
+    addressOption: '//a[text()="Address & Map"]',
+    bookNowButton: '//a[text()="Book Now"]',
+    titleId: '#titleAdult1',
+    titleButton: '//li[text()="Ms."]',
+    activityFirstName: '#fNameAdult1',
+    activityLastName: '#lNameAdult1',
+    activityEmail: '#email',
+    activityMobile: '#mobile',
+    expiryDate: '#PASSPORT_EXPIRYAdult1',
+    countryName: '#PASSPORT_NATIONALITYAdult1',
+    passportNo: '#PASSPORT_PASSPORT_NOAdult1',
+    weight: '#WEIGHTuAdult1',
+    travellerWeight: '#WEIGHTAdult1',
+    enterPanName: '[placeholder="Enter Name"]',
+    panNumber: '[placeholder="Enter PAN No."]',
+}
+
+export const cabPageSelectors = {
+    hourlyRentalOption: '#li3',
+    cabSourceName: '#sourceName',
+    inputSource: '#a_FromSector_show',
+    cabStartCity: '//div[@id="StartCity"]//div[text()=" chennai"]',
+    timePicker: '//div[@id="timePicker"]',
+    rentHour: '[id="hrforRent"] [onclick="RentFor(2)"]',
+    cabSearch: '[class="srch-btn-c"][onclick="GetList()"]',
+    cabBookNow: '//div[@class="list-price"]//div[text()="Book Now "]',
+    msLabel: '//label[text()="Ms."]',
+    cabFirstName: '#txtfname',
+    cabLastName: '#txtlname',
+    cabEmail: '#txtemail',
+    cabMobile: '#txtmbl',
+    pickupLocation: '[placeholder="Enter exact pickup location"]',
+    dropLocation: '#txtpadd',
+}
+
+export const TrainPageSelectors = {
+    radioButtonOneWay: '//label[@id="lbl5"]',
+    trainName: '//input[@id="txtTrainNo_V1"]',
+    selectTrain: '//strong[text()="Ms Ncj Vb Exp"]',
+    departureDate: '//input[@id="txtDate_V1"]',
+    selectDate: '//td[@data-month="10"]//a[text()="28"]',
+    trainSearch: '//button[@class="cr-btn u-link enabled"]',
+    trainBook: '#trainChildWiseSeatClass120627CCGN span:has-text("Book Now")',
+    gender: '#ddlPassengerAge0',
+    trainFname: '#txtAdultFirstName0',
+    trainAge: '#txtAge0',
+    irctcID: '#IrctcUserText',
+    proceedButton: '//div[@class="irctcbtn"]',
+    trainEmail: '//input[@id="txtEmailID"]',
+    trainMobile: '//input[@id="txtMobileNo"]',
+}
+
+export const FlightPageSelectors = {
+    
+}
 export const pageSelectors = {
     ...loginPageSelectors,
     ...holidaysPageSelectors,
@@ -121,4 +185,7 @@ export const pageSelectors = {
     ...giftCardPageSelectors,
     ...darshanPageSelectors,
     ...exploreBharatPageSelectors,
+    ...activitiesPageSelectors,
+    ...cabPageSelectors,
+    ...TrainPageSelectors,
 }

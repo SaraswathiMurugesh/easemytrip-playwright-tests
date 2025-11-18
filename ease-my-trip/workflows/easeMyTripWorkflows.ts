@@ -6,6 +6,9 @@ import { BusPage } from "../pages/busPage.page";
 import { GiftCardPage } from "../pages/giftCardPage.page";
 import { DharshanPage } from "../pages/dharshanPage.page";
 import { ExploreBharatPage } from "../pages/exploreBharatPage.page";
+import { ActivitiesPage } from "../pages/activitiesPage.page";
+import { CabPage } from "../pages/cabPage.page";
+import { TrainPage } from "../pages/trainPage.page";
 
 export class EaseMyTripWorkflows extends BasePage{
     readonly page: Page;
@@ -15,6 +18,9 @@ export class EaseMyTripWorkflows extends BasePage{
     protected giftCardPage: GiftCardPage;
     protected dharshanPage: DharshanPage;
     protected exploreBharatPage: ExploreBharatPage;
+    protected activitiesPage: ActivitiesPage;
+    protected cabPage: CabPage;
+    protected trainPage: TrainPage;
     constructor(page: Page) {
         super(page);
         this.page = page;
@@ -24,6 +30,9 @@ export class EaseMyTripWorkflows extends BasePage{
         this.giftCardPage = new GiftCardPage(page);
         this.dharshanPage = new DharshanPage(page);
         this.exploreBharatPage = new ExploreBharatPage(page);
+        this.activitiesPage = new ActivitiesPage(page);
+        this.cabPage = new CabPage(page);
+        this.trainPage = new TrainPage(page);
     }
 
     /**
@@ -158,5 +167,83 @@ export class EaseMyTripWorkflows extends BasePage{
      */
     public async choosePackageToQuery(travellers: string, city : string, fname: string, lname: string, email: string, mobileNumber: string, remark: string){
         await this.exploreBharatPage.choosePackage(travellers, city, fname, lname, email, mobileNumber, remark);
+    }
+
+    /**
+     * choose the destination city for activity
+     * @param destinationCity destination
+     */
+    public async chooseActivity(destinationCity: string){
+        await this.activitiesPage.destinationCity(destinationCity);
+    }
+
+    /**
+     * choose the date for activity
+     */
+    public async selectDateForActivity(){
+        await this.activitiesPage.dateForActivity();
+    }
+
+    /**
+     * View the package details
+     */
+    public async viewActivityPackageDetails(){
+        await this.activitiesPage.packageDetails();
+    }
+
+    /**
+     * Book the activity package
+    * @param activityFirstName First Name
+    * @param activityLastName Last Name
+    * @param activityEmail Email
+    * @param activityMobile Phone Number
+    * @param countryName Country Name
+    * @param passportNo Passport Number
+    * @param travellerWeight Traveller Weight
+    * @param enterPanName Enter Pan Name
+    * @param panNumber Pan Number
+    * @param travelKg Travel Kg
+     */
+    public async bookActivityPackage(activityFirstName: string, travelKg: string, activityLastName: string, activityEmail: string, activityMobile: string, countryName: string, passportNo: string, travellerWeight: string, enterPanName: string, panNumber: string){
+        await this.activitiesPage.bookThePackage(activityFirstName, travelKg, activityLastName, activityEmail, activityMobile, countryName, passportNo, travellerWeight, enterPanName, panNumber);
+    }
+
+     /**
+     * choose the start city
+     * @param startCity start city
+     */
+    public async startCity(startCity: string){
+        await this.cabPage.startCity(startCity);
+    }
+
+    /**
+     * Booking Details
+    * @param cabFirstName First Name
+    * @param cabLastName Last Name
+    * @param cabEmail Email
+    * @param cabMobile Phone Number
+    * @param pickup pick-up location
+    * @param dropPoint drop location
+     */
+    public async fillBookingDetails(cabFirstName: string, cabLastName: string, cabEmail: string, cabMobile: string, pickup: string, dropPoint: string){
+        await this.cabPage.bookingDetails(cabFirstName, cabLastName, cabEmail, cabMobile, pickup, dropPoint);
+    }
+
+    /**
+     * Search Train
+     * @param searchTrainName Train Name
+     */
+    public async searchTrain(searchTrainName: string) {
+        await this.trainPage.searchTrain(searchTrainName);
+    }
+
+    /**
+     * Book train with details
+     * @param trainMobile Mobile Number
+     * @param trainEmail Mail id
+     * @param irctcID IRCTC ID
+     */
+    public async bookTrainWithDetails(trainEmail: string, trainMobile: string, irctcID:string) { 
+        await this.trainPage.bookTrainWithDetails(trainEmail, trainMobile, irctcID);
     }
 }

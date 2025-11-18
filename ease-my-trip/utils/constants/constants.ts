@@ -12,6 +12,8 @@ export enum KeyboardActions {
     Enter = 'Enter',
     Escape = 'Escape',
     Tab = 'Tab',
+    ArrowRight = 'ArrowRight',
+    ArrowLeft = 'ArrowLeft',
 }
 
 export enum WebsiteURL{
@@ -23,4 +25,7 @@ export enum WebsiteURL{
     GiftCardPage = 'https://www.easemytrip.com/giftcard/',
     EasyDarshanPage = 'https://www.easydarshan.com/',
     ExploreBharatPage = 'https://www.explorebharat.com/',
+    ActivitiesPage = 'https://www.easemytrip.com/activities/',
+    CabPage = 'https://www.easemytrip.com/cabs/',
+    TrainPage = 'https://www.easemytrip.com/railways/',
 }

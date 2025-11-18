@@ -49,4 +49,32 @@ export class BasePage {
     public async navigateToExploreBharatPage(){
         await navigateToUrl(this.page, WebsiteURL.ExploreBharatPage);
     }
+
+    /**
+     * Navigate to Activities Page
+     */
+    public async navigateToActivitiesPage(){
+        await navigateToUrl(this.page, WebsiteURL.ActivitiesPage);
+    }
+
+    /**
+     * Navigate to Cab Page
+     */
+    public async navigateToCabPage(){
+        await navigateToUrl(this.page, WebsiteURL.CabPage);
+    }
+
+    /**
+     * Navigate to Train Page
+     */
+    public async navigateToTrainPage(){
+        await navigateToUrl(this.page, WebsiteURL.TrainPage);
+    }
+
+    /**
+     * Navigate to Flights Page
+     */
+    public async navigateToFlightsPage(){
+        await navigateToUrl(this.page, WebsiteURL.FlightPage);
+    }
 }

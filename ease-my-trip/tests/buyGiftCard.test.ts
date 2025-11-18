@@ -7,7 +7,7 @@ test.describe.serial('Ease My Trip', () => {
   //Test Data
   const amount = "10000";
   const quantity = "2";
-  const month = "10";
+  const month = "11";
   const senderName = "Saraswathi";
   const senderEmail = "SaraswathiMurugesh28@gmail.com";
   const senderMobile = "8015106724";

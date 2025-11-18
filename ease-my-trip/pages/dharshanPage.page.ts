@@ -51,7 +51,7 @@ export class DharshanPage {
     public async bookingDetails(firstName : string, firstName1: string, lastName: string, lastName1: string, dateOfBirth1:string, dateOfBirth2: string, passportNumber1: string, passportNumber2: string, passportExpiry1: string, passportExpiry2: string, email: string, mobileno: string){
         await clickSelector(this.page, pageSelectors.bookButton);
        // await this.page.locator(pageSelectors.selectVisitDate).innerText("");
-        await this.page.getByText('8 ₹14,299', { exact: true }).click();
+        await this.page.getByText('30 ₹14,299', { exact: true }).click();
         await clickSelector(this.page, pageSelectors.calculateAmount);
         await clickSelector(this.page, pageSelectors.continueBooking);
         await this.page.waitForTimeout(TimeOut.ShortWaitTime);
@@ -74,6 +74,8 @@ export class DharshanPage {
         await setInputTextUsingJS(this.page.locator(pageSelectors.passportExpiry).nth(1), passportExpiry2);
         await this.page.locator(pageSelectors.mealsPreference).nth(1).selectOption('Non-Veg Meal');
 
+        const element1 = this.page.locator(pageSelectors.emailAddress);
+        await element1.scrollIntoViewIfNeeded();
         await fillTextInput(this.page, pageSelectors.emailAddress, email);
         await fillTextInput(this.page, pageSelectors.mobileNumber, mobileno);
     }

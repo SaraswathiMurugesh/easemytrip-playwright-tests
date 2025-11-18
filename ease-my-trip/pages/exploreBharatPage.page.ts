@@ -40,6 +40,8 @@ export class ExploreBharatPage {
         await fillTextInput(this.page, pageSelectors.fname, fname);
         await fillTextInput(this.page, pageSelectors.lname, lname);
         await fillTextInput(this.page, pageSelectors.email, email);
+        const element1 = this.page.locator(pageSelectors.mobilenum);
+        await element1.scrollIntoViewIfNeeded();
         await fillTextInput(this.page, pageSelectors.mobilenum, mobileNumber);
         await fillTextInput(this.page, pageSelectors.remark, remark);  
     }
