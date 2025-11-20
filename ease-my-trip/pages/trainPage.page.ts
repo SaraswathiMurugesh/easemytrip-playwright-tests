@@ -20,7 +20,7 @@ export class TrainPage {
     await this.page.keyboard.press(KeyboardActions.ArrowRight);
     await clickSelector(this.page, pageSelectors.selectTrain);
     await clickSelector(this.page, pageSelectors.departureDate);
-    await clickSelector(this.page, pageSelectors.selectDate);
+    await clickSelector(this.page, pageSelectors.selectTrainDate);
     await this.page.locator(pageSelectors.trainSearch).first().click();
     await this.page.waitForTimeout(TimeOut.ElementWaitTime);
   }

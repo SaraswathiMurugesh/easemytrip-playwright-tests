@@ -159,7 +159,7 @@ export const TrainPageSelectors = {
     trainName: '//input[@id="txtTrainNo_V1"]',
     selectTrain: '//strong[text()="Ms Ncj Vb Exp"]',
     departureDate: '//input[@id="txtDate_V1"]',
-    selectDate: '//td[@data-month="10"]//a[text()="28"]',
+    selectTrainDate: '//td[@data-month="11"]//a[text()="28"]',
     trainSearch: '//button[@class="cr-btn u-link enabled"]',
     trainBook: '#trainChildWiseSeatClass120627CCGN span:has-text("Book Now")',
     gender: '#ddlPassengerAge0',
@@ -172,7 +172,21 @@ export const TrainPageSelectors = {
 }
 
 export const FlightPageSelectors = {
-    
+    flightFromTextBox: '//input[@id="FromSector_show"]',
+    flightFromInputField: '[id="a_FromSector_show"]',
+    flightFromSugg: 'li[onclick*="spn2"]',
+    flightToInputField: '[id="a_Editbox13_show"]',
+    flightTo: '#toautoFill li',
+    selectFlightDate: '//li[@id="snd_3_10/12/2025"]',
+    flightSearch: '[class="srchBtnSe"]',
+    flightBook: '//button[@id="BK_0"]',
+    flightTitle: '//select[@id="titleAdult0"]',
+    flightFname: '#txtFNAdult0',
+    flightLname: '#txtLNAdult0',
+    flightEmail: '#txtEmailAdult0',
+    flightMobile: '#txtCPhoneAdult0',
+    contactEmail: '#txtEmailId',
+    contactMobile: '#txtCPhone',
 }
 export const pageSelectors = {
     ...loginPageSelectors,
@@ -188,4 +202,5 @@ export const pageSelectors = {
     ...activitiesPageSelectors,
     ...cabPageSelectors,
     ...TrainPageSelectors,
+    ...FlightPageSelectors,
 }

@@ -9,6 +9,7 @@ import { ExploreBharatPage } from "../pages/exploreBharatPage.page";
 import { ActivitiesPage } from "../pages/activitiesPage.page";
 import { CabPage } from "../pages/cabPage.page";
 import { TrainPage } from "../pages/trainPage.page";
+import { FlightPage } from "../pages/flightPage.page";
 
 export class EaseMyTripWorkflows extends BasePage{
     readonly page: Page;
@@ -21,6 +22,7 @@ export class EaseMyTripWorkflows extends BasePage{
     protected activitiesPage: ActivitiesPage;
     protected cabPage: CabPage;
     protected trainPage: TrainPage;
+    protected flightPage: FlightPage;
     constructor(page: Page) {
         super(page);
         this.page = page;
@@ -33,6 +35,7 @@ export class EaseMyTripWorkflows extends BasePage{
         this.activitiesPage = new ActivitiesPage(page);
         this.cabPage = new CabPage(page);
         this.trainPage = new TrainPage(page);
+        this.flightPage = new FlightPage(page);
     }
 
     /**
@@ -245,5 +248,27 @@ export class EaseMyTripWorkflows extends BasePage{
      */
     public async bookTrainWithDetails(trainEmail: string, trainMobile: string, irctcID:string) { 
         await this.trainPage.bookTrainWithDetails(trainEmail, trainMobile, irctcID);
+    }
+
+    /**
+   * Select for Flight
+   * @param flightFromCity from city Name
+   * @param flightToCity to city Name
+   */
+    public async searchFlight(flightFromCity: string, flightToCity: string) {   
+        await this.flightPage.searchFlight(flightFromCity, flightToCity);
+    }   
+
+     /**
+   * Flight Booking Details
+   * @param flightFname First Name
+   * @param flightLname Last Name
+   * @param flightEmail Optional Email
+   * @param flightMobile Optional Phone Number
+   * @param contactEmail Email
+   * @param contactMobile Mobile Number
+   */
+    public async flightBookingDetails(flightFname: string, flightLname: string, flightEmail: string, flightMobile: string, contactEmail: string, contactMobile: string) { 
+        await this.flightPage.flightBookingDetails(flightFname, flightLname, flightEmail, flightMobile, contactEmail, contactMobile);
     }
 }

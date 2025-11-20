@@ -2,7 +2,6 @@ import { Page } from "@playwright/test";
 // Update the import path to match your project structure, for example:
 import { clickSelector, fillTextInput, waitForSelectorToDisable } from "../utils/pageUtils";
 import { pageSelectors } from "../utils/selectors/selectors";
-import { KeyboardActions } from "../utils/constants/constants";
 
 export class HolidaysPage {
     readonly page: Page;

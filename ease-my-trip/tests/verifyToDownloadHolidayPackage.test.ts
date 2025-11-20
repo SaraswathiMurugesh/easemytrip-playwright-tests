@@ -1,4 +1,4 @@
-import { test, expect } from '@playwright/test';
+import { test } from '@playwright/test';
 import { EaseMyTripWorkflows } from '../workflows/easeMyTripWorkflows';
 
 test.describe.serial('Ease My Trip', () => {

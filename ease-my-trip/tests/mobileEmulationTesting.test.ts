@@ -14,7 +14,7 @@ test.describe.serial('Ease My Trip', () => {
   const receiverName = "Bhuvanesh";
   const receiverEmail = "Bhuvaneshwaran18@gmail.com";
   const receiverMobile = "8923762323";
-  test('Test Case #6: Buy Gift Card', async ({ page }) => {
+  test('Test Case #12: Mobile Emulation Testing', async ({ page }) => {
     easeMyTripWorkflows = new EaseMyTripWorkflows(page);
     
     await test.step('Navigate to Home Page', async () => {
