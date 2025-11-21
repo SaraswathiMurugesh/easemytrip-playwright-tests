@@ -14,7 +14,7 @@ jobs:
     steps:
       # Checkout repo
       - name: Checkout code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v3
 
       # Setup Node.js
       - name: Setup Node.js
@@ -29,6 +29,10 @@ jobs:
       # Install Playwright browsers
       - name: Install Playwright Browsers
         run: npx playwright install --with-deps
+
+      # Run Authentication test
+      - name: Run Authentication test
+        run: npm run login
 
       # Run Playwright tests
       - name: Run Playwright tests

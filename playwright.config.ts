@@ -1,4 +1,4 @@
-import { defineConfig } from '@playwright/test';
+import { defineConfig, devices } from '@playwright/test';
 
 /**
  * See https://playwright.dev/docs/test-configuration.
@@ -14,7 +14,7 @@ export default defineConfig({
   timeout: 180000,
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
-    browserName: 'chromium',
+   //browserName: 'chromium',
     headless: true,
     viewport: null, 
     screenshot: 'only-on-failure',
@@ -34,4 +34,36 @@ export default defineConfig({
       ]
     }
   },
+  projects: [
+  {
+    name: 'default',
+    use: { browserName: 'chromium' },
+    grepInvert: /@cross | @mobile/,  // default project runs all tests EXCEPT tagged
+  },
+  {
+    name: 'chromium',
+    use: { ...devices['Desktop Chrome'] },
+    grep: /@cross/,
+  },
+  {
+    name: 'firefox',
+    use: { ...devices['Desktop Firefox'] },
+    grep: /@cross/,
+  },
+  {
+    name: 'webkit',
+    use: { ...devices['Desktop Safari'] },
+    grep: /@cross/,
+  },
+  {
+    name: 'Mobile Chrome',
+    use: { ...devices['Pixel 5'] },
+    grep: /@mobile/,
+  },
+  {
+    name: 'Mobile Chrome',
+    use: { ...devices['Galaxy Note 3 landscape'] },
+    grep: /@mobile/,
+  },
+]
 });
