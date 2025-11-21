@@ -6,6 +6,7 @@ export const loginPageSelectors = {
     passwordInputField: '#txtEmail2',
     loginButton: '[name="btn_Login"]:not([id])',
     loginSuccessIndicator: '[class$="logsuccess"]',
+    closePopUp: '[onclick="closePopup(event)"]',
 }
 
 export const holidaysPageSelectors = {

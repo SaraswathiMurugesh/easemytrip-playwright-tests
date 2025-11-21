@@ -8,13 +8,20 @@ async function runLogin() {
     const storagePath = path.join(__dirname, 'authArtifacts', 'storageState.json');
     const browser = await chromium.launch({
     args: ['--start-maximized'],    
-    headless: true
+    headless: false
 });
 const browserContext = await browser.newContext();
 const page = await browserContext.newPage();
 await browserContext.grantPermissions(['geolocation'], { origin: 'https://www.easemytrip.com' });
 await page.setViewportSize({width: 1920, height: 1080});
 await page.goto('https://www.easemytrip.com/', { waitUntil: 'domcontentloaded' });
+try {
+    await page.waitForTimeout(TimeOut.ElementWaitTime); // Wait for 5 seconds to allow pop-up to appear
+    await page.locator(pageSelectors.closePopUp).waitFor({state: 'attached', timeout: TimeOut.ElementWaitTime});
+    await page.locator(pageSelectors.closePopUp).click({timeout: TimeOut.ElementWaitTime});
+} catch (error) {
+    console.log('No pop-up to close');
+}   
 await page.locator(pageSelectors.loginOrSignUpButton).waitFor({state: 'attached', timeout: TimeOut.LoadTimeOut});
 await page.locator(pageSelectors.loginOrSignUpButton).click();
 await page.locator(pageSelectors.customerLoginButton).click();
