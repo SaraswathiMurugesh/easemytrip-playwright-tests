@@ -27,23 +27,21 @@ export default defineConfig({
       headless: false,
       timeout: 60000,
       slowMo: 400,
-      args: [
-        '--start-maximized',
-        '--start-fullscreen',
-        '--window-size=1920,1080',
-      ]
     }
   },
   projects: [
   {
     name: 'default',
-    use: { browserName: 'chromium' },
-    grepInvert: /@cross | @mobile/,  // default project runs all tests EXCEPT tagged
-  },
-  {
-    name: 'chromium',
-    use: { ...devices['Desktop Chrome'] },
-    grep: /@cross/,
+    use: {
+        browserName: 'chromium',
+        launchOptions: {
+          args: [
+            '--start-maximized',
+            '--window-size=1920,1080',
+          ]
+        }
+      },
+      grepInvert: /@cross | @mobile/  // default project runs all tests EXCEPT tagged
   },
   {
     name: 'firefox',
@@ -61,8 +59,8 @@ export default defineConfig({
     grep: /@mobile/,
   },
   {
-    name: 'Mobile Chrome',
-    use: { ...devices['Galaxy Note 3 landscape'] },
+    name: 'iPhone 13 Pro',
+    use: { ...devices['iPhone 13 Pro'] },
     grep: /@mobile/,
   },
 ]

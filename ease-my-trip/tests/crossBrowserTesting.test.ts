@@ -13,7 +13,7 @@ test.describe.serial('Ease My Trip', () => {
   const mobileNumber = '8015106724';
   const remark = 'Are there any particular regulations or guidelines visitors should know?';
 
-  test('Test Case #11: Cross Browser Testing @cross', async ({ page }) => {
+  test('Cross Browser Testing @cross', async ({ page }) => {
     easeMyTripWorkflows = new EaseMyTripWorkflows(page);
     
     await test.step('Navigate to Home Page', async () => {
