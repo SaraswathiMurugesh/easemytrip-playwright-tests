@@ -21,7 +21,8 @@ export default defineConfig({
     video: 'retain-on-failure',
     trace: 'retain-on-failure',
     ignoreHTTPSErrors: true,
-    actionTimeout: 30000,
+    actionTimeout: 120000, // 2 minutes for element readiness
+    navigationTimeout: 120000, // 2 minutes for page loading,
     storageState: './ease-my-trip/authArtifacts/storageState.json',
     launchOptions: {
       headless: false,
