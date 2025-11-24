@@ -34,13 +34,7 @@ export default defineConfig({
   {
     name: 'default',
     use: {
-        browserName: 'chromium',
-        launchOptions: {
-          args: [
-            '--start-maximized',
-            '--window-size=1920,1080',
-          ]
-        }
+        browserName: 'firefox',
       },
       grepInvert: /@cross | @mobile/  // default project runs all tests EXCEPT tagged
   },

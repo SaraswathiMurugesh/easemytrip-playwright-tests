@@ -1,5 +1,13 @@
-import { Frame, FrameLocator, Locator, Page } from '@playwright/test';
+import test, { expect, Frame, FrameLocator, Locator, Page } from '@playwright/test';
 import { TimeOut } from './constants/constants';
+import axeBuilder from '@axe-core/playwright';
+import { convertAxeToSarif } from 'axe-sarif-converter';
+import path from 'path';
+import { existsSync, mkdirSync } from 'fs';
+// `uuid` is an ES module; use a dynamic import inside the async function
+// to avoid require() of an ES module from CommonJS context.
+import { promisify } from 'util';
+import * as fs from 'fs';
 
 type Locatable = Page | Locator | FrameLocator | Frame;
 
@@ -145,4 +153,47 @@ export async function navigateToUrl(page: Page, url: string) {
  */
 export async function setInputTextUsingJS(locatable: Locator, textToFill: string) {
   await locatable.evaluate((el: HTMLInputElement, value: string) => (el.value = value), textToFill);
+}
+
+/**
+ * Checks accessibility for a particular page
+ * @param page Page against which accessibility check runs.
+ * @param testTitle title of the test
+ */
+export const a11y = async (
+  page: Page,
+  testTitle: string = test.info().title
+): Promise<void> => {
+  await page.waitForLoadState('load');
+  const builder = new axeBuilder({ page }).withTags(['wcag2a', 'wcag2aa']);
+  const accessibilityScanResults = await builder.analyze();
+  await exportAccessibilityTestReport(`${testTitle}`, accessibilityScanResults);
+  expect(accessibilityScanResults.violations).toEqual([]);
+  return;
+};
+
+/**
+ * Export results from accessibility check to a new file in the output directory.
+ * @param fileName Name for the file to which the results are exported.
+ * @param axeResults results from the accessibility check
+ * @returns accessibility test report
+ */
+export async function exportAccessibilityTestReport(fileName: string, axeResults: any): Promise<void> {
+  const accessibilityTestResult = convertAxeToSarif(axeResults);
+  const accessibilityTestResultsDirectory = path.join(
+    'downloads',
+    'artifacts',
+    'accessibility-test-results'
+  );
+  if (!existsSync(accessibilityTestResultsDirectory)) {
+    mkdirSync(accessibilityTestResultsDirectory, { recursive: true });
+  }
+  const { v4: uuidv4 } = await import('uuid');
+  const exportFileName = `${fileName}_${uuidv4()}.sarif`;
+  const accessibilityTestResultFilePath = path.join(accessibilityTestResultsDirectory, exportFileName);
+  await promisify(fs.writeFile)(
+    accessibilityTestResultFilePath,
+    JSON.stringify(accessibilityTestResult, null, 2)
+  );
+  console.log(`Exported axe results to ${accessibilityTestResultFilePath}`);
 }

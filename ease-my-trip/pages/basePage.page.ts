@@ -1,5 +1,5 @@
 import { Page } from "@playwright/test";
-import { navigateToUrl } from "../utils/pageUtils";
+import { a11y, navigateToUrl } from "../utils/pageUtils";
 import { WebsiteURL } from "../utils/constants/constants";
 
 export class BasePage {
@@ -17,9 +17,14 @@ export class BasePage {
 
     /**
      * Navigate to holiday page
+     * @param a11yCheck Accessibility check
      */
-    public async navigateToHolidaysPage() {
+    public async navigateToHolidaysPage(a11yCheck: boolean = false) {
         await navigateToUrl(this.page, WebsiteURL.HolidayPage);
+        await this.page.waitForLoadState('domcontentloaded');
+        if (a11yCheck) {
+           await a11y(this.page, 'Holiday Page Accessibility Check');
+        }
     }
 
     /**
