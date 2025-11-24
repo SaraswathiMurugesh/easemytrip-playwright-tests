@@ -8,7 +8,7 @@ async function runLogin() {
     const storagePath = path.join(__dirname, 'authArtifacts', 'storageState.json');
     const browser = await chromium.launch({
     args: ['--start-maximized'],    
-    headless: true
+    headless: false
 });
 const browserContext = await browser.newContext();
 const page = await browserContext.newPage();

@@ -10,13 +10,11 @@ on:
 jobs:
   test:
     runs-on: ubuntu-latest
-
     steps:
       # Checkout repo
       - name: Checkout code
-        # Use a later version of checkout
-        uses: actions/checkout@v4
-
+        uses: actions/checkout@v3
+		
       # Setup Node.js
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -24,24 +22,23 @@ jobs:
           node-version: 18
 
       # Install dependencies
-      # Recommended to use 'npm ci' in CI environments for faster, clean, and consistent installs.
       - name: Install dependencies
-        run: npm ci
+        run: npm install
 
       # Install Playwright browsers
-      # The correct and recommended method is to use the Playwright CLI command.
       - name: Install Playwright Browsers
         run: npx playwright install --with-deps
 
-      # ----------------------------------------------------------------------
-      # REMOVED: The Start Xvfb step and the DISPLAY environment variable are 
-      # removed. Playwright runs in headless mode by default in CI, which is 
-      # faster, more stable, and does not require Xvfb setup.
-      # ----------------------------------------------------------------------
+      - name: Start Xvfb (required for headed mode)
+        run: |
+          sudo Xvfb :99 -screen 0 1920x1080x24 &
+          echo "DISPLAY=:99" >> $GITHUB_ENV
 
       # Run Authentication test
       - name: Run Authentication test
         run: npm run login
+        env:
+          DISPLAY: ":99"
 
       # Run Playwright tests
       - name: Run Playwright tests
@@ -50,6 +47,7 @@ jobs:
       # Upload Playwright HTML Report (artifact)
       - name: Upload Playwright report
         uses: actions/upload-artifact@v4
+
         if: always()
         with:
           name: playwright-report
