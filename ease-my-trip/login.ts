@@ -20,7 +20,7 @@ try {
     await page.locator(pageSelectors.closePopUp).waitFor({state: 'attached', timeout: TimeOut.ElementWaitTime});
     await page.locator(pageSelectors.closePopUp).click({timeout: TimeOut.ElementWaitTime});
 } catch (error) {
-    console.log('pop up closed');
+    console.log('No pop up to close');
 }   
 await page.locator(pageSelectors.loginOrSignUpButton).waitFor({state: 'attached', timeout: TimeOut.LoadTimeOut});
 await page.locator(pageSelectors.loginOrSignUpButton).click();
